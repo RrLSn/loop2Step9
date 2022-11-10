@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #4677f6;
+}
+
+main{
+    width: 26rem;
+    height: 39rem;
+    background-color: #ffffff;
+    margin: 9rem auto;
+}
+
+.head{
+    width: 90%;
+    height: 3rem;
+    display: grid;
+    grid-template-columns: 3rem 1fr 3rem;
+    margin: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.head h3{
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.head img{
+    height: 1.5rem;
+    width: 1.5rem;
+    margin: 1rem;
+}
+
+.map{
+    /* position: absolute; */
+    width: 107%;
+    height: 10rem;
+    background-image: url("./media/map.png");
+    background-size: cover;
+    margin-top: 2rem;
+    margin-left: -1rem;
+    border-radius: 3%;
+}
