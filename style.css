@@ -40,11 +40,13 @@ main{
 .map{
     width: 107%;
     height: 10rem;
-    background-image: url("./media/map.png");
-    background-size: cover;
+    background: url("./media/map.png") #4c5e8d;
+    background-blend-mode: multiply;
+    background-size: 100% 100%;
     margin-top: 1rem;
     margin-left: -1rem;
     border-radius: 3%;
+    color: #ffffff;
 }
 
 .map img{
@@ -65,7 +67,7 @@ main{
     width: 0.5rem;
     height: 0.5rem;
     border-radius: 50%;
-    background-color: black;
+    background-color: #ffffff;
     margin-top: 0.4rem;
 }
 
@@ -76,14 +78,14 @@ main{
 .linea{
     width: 4rem;
     height: 0.2rem;
-    background-color: black;
+    background-color: #ffffff;
     margin: 0.55rem -0.1rem;
 }
 
 .lineb{
     width: 8rem;
     height: 0.2rem;
-    background-color: black;
+    background-color: rgb(221, 216, 216);
     margin: 0.55rem -0.1rem;
 }
 
@@ -151,8 +153,8 @@ main{
     width: 25.2rem;
     height: 3rem;
     margin: 1rem -0.5rem;
-    background-image: url("./media/streetview.jpg");
-    background-size: cover;
+    background: url("./media/streetview.jpg");
+    background-size: 100% 100%;
 }
 
 .street img{
